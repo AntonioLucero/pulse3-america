@@ -2,7 +2,6 @@ a
 {
 	color: #DD4F24;
 }
-
 body
 {
  background: #EFEFEF;
@@ -11,7 +10,6 @@ body
  font-size: 16px;
  margin: 0;
 }
-
 header
 {
 background: #434343;
@@ -19,7 +17,6 @@ color: white;
 margin: 0;
 padding: 0.5em;
 }
-
 header figure, header h1
 {
   display: inline-block;
@@ -108,6 +105,9 @@ nav #publicar_nav a
 {
 	background: white;
 	border-bottom: 3px #22BCE0 solid;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
 }
 #contenido .item .imagen_item
 {
@@ -136,11 +136,22 @@ nav #publicar_nav a
 	font-size: 0.9em;
 	color: #7A7A7A;
 }
-#contenido .item .datos_item .tag_item
+#contenido .item .text-decorations_item .tag_item
 {
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color:white;
 	padding: 0.2em 0.5em;
 	text-decoration: none;
+}
+#contenido .item .votacion
+{
+	margin: 3px 0 0 0;
+	border-radius: 0 0 0.5em 0.5em;
+	padding: 0.5em 0;
+	width: 96px;	
+	position: absolute;
+	text-align: center;
+	top:100%;
+	background: white;
 }
